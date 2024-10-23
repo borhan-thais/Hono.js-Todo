@@ -1,14 +1,20 @@
 {
-  "name": "hono_todo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@hono/node-server": "^1.13.1",
-    "hono": "^4.6.3"
-  }
+    "name": "hono_todo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node server.mjs",
+        "format": "prettier --write ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@hono/node-server": "^1.13.1",
+        "hono": "^4.6.3"
+    },
+    "devDependencies": {
+        "prettier": "^3.3.3"
+    }
 }
